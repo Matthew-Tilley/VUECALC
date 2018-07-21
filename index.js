@@ -27,9 +27,15 @@ new Vue({
                 this.current.slice(1) : `-${this.current}`;
         },
 
-        percent()
-        {
+        percent() {
+            
             this.current = `${ parseFloat(this.current) / 100 }`
+        },
+
+        append(number) {
+
+            this.current = this.current + number;
+
         }
 
 
