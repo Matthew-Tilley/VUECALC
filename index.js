@@ -6,6 +6,7 @@ new Vue({
 
         return {
 
+            previous: null,
             current: "",
             operator: null
 
@@ -67,6 +68,12 @@ new Vue({
         add() {
 
             this.operator = (a,b) => a + b;
+
+        },
+
+        equals() {
+
+            
 
         }
 
