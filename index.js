@@ -51,6 +51,7 @@ new Vue({
         divide() {
 
             this.operator = (a,b) => a / b;
+            this.previous = this.current;
             this.operatorClicked=true;
 
         },
@@ -58,18 +59,21 @@ new Vue({
         multiply() {
 
             this.operator = (a,b) => a * b;
+            this.previous = this.current;
             this.operatorClicked=true;
         },
 
         subtract() {
 
             this.operator = (a,b) => a - b;
+            this.previous = this.current;
             this.operatorClicked=true;
         },
 
         add() {
 
             this.operator = (a,b) => a + b;
+            this.previous = this.current;
             this.operatorClicked=true;
 
         },
