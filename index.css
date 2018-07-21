@@ -3,6 +3,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: minmax(50px, auto);
+
+    font-size: 2rem;
 }
 
 
@@ -11,4 +13,10 @@
     grid-column: 1 / 5;
     text-align: center;
     background-color: red;
+}
+
+
+.zero
+{
+    grid-column: 1 / 3;
 }
