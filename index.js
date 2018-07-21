@@ -48,6 +48,13 @@ new Vue({
             }
         },
 
+        setPrevious() {
+            this.previous = this.current;
+            this.operatorClicked = true;
+        }
+
+
+
         divide() {
 
             this.operator = (a,b) => a / b;
