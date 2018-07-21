@@ -6,8 +6,17 @@ new Vue({
 
         return {
 
-            current: "",
+            current: "333",
 
+        }
+
+    },
+
+    methods: {
+
+        clear() {
+
+            this.current = "";
         }
 
     }
