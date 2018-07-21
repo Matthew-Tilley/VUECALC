@@ -8,7 +8,8 @@ new Vue({
 
             previous: null,
             current: "",
-            operator: null
+            operator: null,
+            operatorClicked: false,
 
         }
 
