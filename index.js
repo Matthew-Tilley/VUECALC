@@ -56,7 +56,7 @@ new Vue({
         setPrevious() {
             this.previous = this.current;
             this.operatorClicked = true;
-        }
+        },
 
 
 
