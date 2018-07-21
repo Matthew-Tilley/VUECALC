@@ -51,24 +51,26 @@ new Vue({
         divide() {
 
             this.operator = (a,b) => a / b;
+            this.operatorClicked=true;
 
         },
 
         multiply() {
 
             this.operator = (a,b) => a * b;
-
+            this.operatorClicked=true;
         },
 
         subtract() {
 
             this.operator = (a,b) => a - b;
-
+            this.operatorClicked=true;
         },
 
         add() {
 
             this.operator = (a,b) => a + b;
+            this.operatorClicked=true;
 
         },
 
