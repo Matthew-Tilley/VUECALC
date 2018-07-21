@@ -2,9 +2,13 @@ new Vue({
     
     el: "#app",
 
-    data: {
+    data() {
 
-       
+        return {
+
+            current: "99999",
+
+        }
 
     }
 
