@@ -6,7 +6,7 @@ new Vue({
 
         return {
 
-            current: "99999",
+            current: "",
 
         }
 
