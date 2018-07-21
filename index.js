@@ -48,17 +48,25 @@ new Vue({
 
         divide() {
 
+            this.operator = (a,b) => a / b;
+
         },
 
         multiply() {
+
+            this.operator = (a,b) => a * b;
 
         },
 
         subtract() {
 
+            this.operator = (a,b) => a - b;
+
         },
 
         add() {
+
+            this.operator = (a,b) => a + b;
 
         }
 
