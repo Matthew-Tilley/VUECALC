@@ -4,7 +4,7 @@ new Vue({
 
     data: {
 
-        
+        message: "HELLO"
 
     }
 
