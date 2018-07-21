@@ -37,6 +37,11 @@ new Vue({
 
         append(number) {
 
+            if (this.operatorClicked === true) {
+                this.current = "";
+                this.operatorClicked = false;
+            }
+
             this.current = `${this.current}${number}`;
 
         },
