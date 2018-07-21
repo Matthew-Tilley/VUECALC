@@ -34,7 +34,7 @@ new Vue({
 
         append(number) {
 
-            this.current = this.current + number;
+            this.current = `${this.current}${number}`;
 
         }
 
