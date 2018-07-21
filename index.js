@@ -6,7 +6,7 @@ new Vue({
 
         return {
 
-            current: "333",
+            current: "",
 
         }
 
@@ -17,7 +17,22 @@ new Vue({
         clear() {
 
             this.current = "";
+        },
+
+        sign() {
+
+            //  Note for later; ternary operator...I do not
+            //  understand this code.
+            this.current = this.current.charAt(0) === "-" ?
+                this.current.slice(1) : `-${this.current}`;
+        },
+
+        percent()
+        {
+            this.current = `${ parseFloat(this.current) / 100 }`
         }
+
+
 
     }
 
