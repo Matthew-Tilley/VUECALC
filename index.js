@@ -36,6 +36,14 @@ new Vue({
 
             this.current = `${this.current}${number}`;
 
+        },
+
+        dot() {
+
+            if(this.current.indexOf(".") === -1 ) {
+                this.append(".");
+            }
+
         }
 
 
