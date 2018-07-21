@@ -43,6 +43,21 @@ new Vue({
             if(this.current.indexOf(".") === -1 ) {
                 this.append(".");
             }
+        },
+
+        divide() {
+
+        },
+
+        multiply() {
+
+        },
+
+        subtract() {
+
+        },
+
+        add() {
 
         }
 
