@@ -12,7 +12,7 @@
 {
     grid-column: 1 / 5;
     text-align: center;
-    
+
     background-color: #333;
     color: white;
 }
@@ -26,6 +26,10 @@
 
 .btn
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: #F2F2F2;
     border: 1px solid #333;
 }
