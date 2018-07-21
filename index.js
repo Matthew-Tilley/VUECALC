@@ -89,7 +89,12 @@ new Vue({
 
         equals() {
 
-            
+            this.current = `${this.operator(
+                parseFloat(this.current),
+                parseFloat(this.previous)
+            )}`;
+
+            this.previous = null;
 
         }
 
